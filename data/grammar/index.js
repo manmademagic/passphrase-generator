@@ -8,6 +8,23 @@ import nouns from "/grammar/nouns.js";
 import verbs from "/grammar/verbs.js";
 import adverbs from "/grammar/adverbs.js";
 
+// adjective
+// adverb
+// article
+// conjunction
+// demonstrative
+// indefinite pronoun
+// interrogative
+// noun
+// number
+// personal pronoun
+// preposition
+// proper noun
+// speech verb
+// tags
+// verb
+// word
+
 export const RP = {
     article: articles,
     adjective: adjectives,
