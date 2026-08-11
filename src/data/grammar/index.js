@@ -16,27 +16,10 @@ import demonstratives from "./demonstratives.js";
 import personalPronouns from "./personalPronouns.js";
 import indefinitePronouns from "./indefinitePronouns.js";
 import numbers from "./numbers.js";
-import prepositions from "./prepositions.js";
+import prepositions from "./prepositions.js"; // DONE
 import auxiliaries from "./auxiliaries.js";
 import interrogatives from "./interrogatives.js";
-import conjunctions from "./conjunctions.js";
-
-// adjective
-// adverb
-// article
-// conjunction
-// demonstrative
-// indefinite pronoun
-// interrogative
-// noun
-// number
-// personal pronoun
-// preposition
-// proper noun
-// speech verb
-// tags
-// verb
-// word
+import conjunctions from "./conjunctions.js"; // DONE
 
 export const RP = {
     article: articles,
