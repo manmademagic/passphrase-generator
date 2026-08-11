@@ -180,9 +180,7 @@ const GENERATORS = {
         const nums = toInt(q.get("nums"), 0, 0, 9999);
         const whenUp = (q.get("whenUp") || "never").toLowerCase();
         const ups = toInt(q.get("ups"), 0, 0, 9999);
-        const bank =
-            { randomshort: "short", normal: "normal", strong: "long", randomlong: "long", insane: "insane", randomforever: "insane" }[s] ||
-            pick(["short", "normal", "long"]); // "random"
+        const bank = { short: "short", normal: "normal", long: "long", insane: "insane" }[s] || pick(["short", "normal", "long"]); // "random"
         const tmpl = pick(RP_TEMPLATES[bank]);
         const gen = () => {
             let words = tmpl.map((pos) => pick(RP[pos]));
