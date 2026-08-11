@@ -2,11 +2,11 @@
 // The original uses a full NLP grammar + ~15k word dictionary:
 // https://github.com/ligos/readablepassphrasegenerator
 
-import articles from "/grammar/articles.js";
-import adjectives from "/grammar/adjectives.js";
-import nouns from "/grammar/nouns.js";
-import verbs from "/grammar/verbs.js";
-import adverbs from "/grammar/adverbs.js";
+import articles from "./articles.js";
+import adjectives from "./adjectives.js";
+import nouns from "./nouns.js";
+import verbs from "./verbs.js";
+import adverbs from "./adverbs.js";
 
 // adjective
 // adverb
