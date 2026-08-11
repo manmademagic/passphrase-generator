@@ -1,16 +1,16 @@
 {
-	"compatibility_date": "2025-10-08",
-	"main": "src/index.ts",
-	"name": "passphrase-generator",
-	"upload_source_maps": true,
-	"d1_databases": [
-		{
-			"binding": "DB",
-			"database_id": "f1038f98-f741-48f7-93e8-a159e459af03",
-			"database_name": "passphrase-generator"
-		}
-	],
-	"observability": {
-		"enabled": true
-	}
+    "compatibility_date": "2025-10-08",
+    "main": "src/index.js",
+    "name": "passphrase-generator",
+    "upload_source_maps": true,
+    "d1_databases": [
+        {
+            "binding": "DB",
+            "database_id": "f1038f98-f741-48f7-93e8-a159e459af03",
+            "database_name": "passphrase-generator"
+        }
+    ],
+    "observability": {
+        "enabled": true
+    }
 }
