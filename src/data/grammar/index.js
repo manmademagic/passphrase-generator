@@ -57,34 +57,34 @@ export const RP_TEMPLATES = {
         ["demonstrative", "noun", "verbPast", "personalPronoun", "noun"],
         ["properNoun", "verb", "article", "noun"],
         ["indefinitePronoun", "verb", "personalPronoun", "noun"],
-        ["personalPronoun", "verb", "article", "noun"],
+        /*["personalPronoun", "verb", "article", "noun"],
         ["article", "noun", "verbPast", "adverb"],
         ["properNoun", "verbPast", "preposition", "article", "noun"],
         ["demonstrative", "adjective", "noun", "verb"],
-        ["interrogative", "auxiliary", "article", "noun"],
+        ["interrogative", "auxiliary", "article", "noun"],*/
     ],
     normal: [
         ["article", "adjective", "noun", "verb", "article", "noun"],
         ["article", "noun", "adverb", "verbPast", "article", "adjective", "noun"],
         ["number", "nounPlural", "verbBase", "preposition", "article", "noun"],
         ["demonstrative", "noun", "verb", "preposition", "personalPronoun", "adjective", "noun"],
-        ["article", "noun", "verb", "preposition", "article", "adjective", "noun"],
+        /*["article", "noun", "verb", "preposition", "article", "adjective", "noun"],
         ["personalPronoun", "adverb", "verbPast", "article", "adjective", "noun"],
         ["demonstrative", "adjective", "noun", "verb", "article", "noun"],
         ["properNoun", "verb", "article", "adjective", "noun", "adverb"],
         ["interrogative", "auxiliary", "article", "noun", "verbBase", "preposition", "article", "noun"],
-        ["indefinitePronoun", "verbPast", "preposition", "article", "adjective", "noun"],
+        ["indefinitePronoun", "verbPast", "preposition", "article", "adjective", "noun"],*/
     ],
     long: [
         ["article", "adjective", "noun", "adverb", "verb", "preposition", "article", "adjective", "noun"],
         ["interrogative", "auxiliary", "article", "adjective", "noun", "verbBase", "article", "noun"],
         ["properNoun", "speechVerb", "article", "adjective", "noun", "verbPast", "personalPronoun", "noun"],
         ["number", "adjective", "nounPlural", "adverb", "verbBase", "preposition", "article", "noun"],
-        ["article", "adjective", "noun", "verb", "preposition", "article", "adjective", "noun", "adverb"],
+        /*["article", "adjective", "noun", "verb", "preposition", "article", "adjective", "noun", "adverb"],
         ["personalPronoun", "adverb", "verbPast", "article", "adjective", "noun", "preposition", "article", "noun"],
         ["properNoun", "verb", "article", "adjective", "noun", "conjunction", "article", "adjective", "noun"],
         ["interrogative", "auxiliary", "article", "adjective", "noun", "verbBase", "preposition", "article", "adjective", "noun"],
-        ["demonstrative", "adjective", "noun", "adverb", "verbPast", "preposition", "personalPronoun", "adjective", "noun"],
+        ["demonstrative", "adjective", "noun", "adverb", "verbPast", "preposition", "personalPronoun", "adjective", "noun"],*/
     ],
     insane: [
         [
@@ -120,7 +120,7 @@ export const RP_TEMPLATES = {
             "adjective",
             "noun",
         ],
-        [
+        /*[
             "article",
             "adjective",
             "noun",
@@ -168,6 +168,6 @@ export const RP_TEMPLATES = {
             "article",
             "adjective",
             "noun",
-        ],
+        ],*/
     ],
 };
