@@ -3,15 +3,15 @@
 // https://github.com/ligos/readablepassphrasegenerator
 
 import articles from "./articles.js";
-import adjectives from "./adjectives.js";
-import nouns from "./nouns.js";
-import nounsPlural from "./nounsPlural.js";
+import adjectives from "./adjectives.js"; //DONE
+import nouns from "./nouns.js"; //DONE
+import nounsPlural from "./nounsPlural.js"; //DONE
 import properNouns from "./properNouns.js";
-import verbs from "./verbs.js";
-import verbsBase from "./verbsBase.js";
-import verbsPast from "./verbsPast.js";
-import speechVerbs from "./speechVerbs.js";
-import adverbs from "./adverbs.js";
+import verbs from "./verbs.js"; // DONE
+import verbsBase from "./verbsBase.js"; //DONE
+import verbsPast from "./verbsPast.js"; // DONE
+import speechVerbs from "./speechVerbs.js"; //DONE
+import adverbs from "./adverbs.js"; // DONE
 import demonstratives from "./demonstratives.js";
 import personalPronouns from "./personalPronouns.js";
 import indefinitePronouns from "./indefinitePronouns.js";
