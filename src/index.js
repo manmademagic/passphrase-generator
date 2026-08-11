@@ -3,10 +3,10 @@
 // Formats: plain, json, xml, combinations
 // Styles: pin, hex, alphanumeric, unicode, pronounceable, passphrase, readablepassphrase, pattern
 
-import { DIGITS, ALPHANUM, SYMBOLS, HEX } from "./data/charsets.js";
-import { CONSONANTS, VOWELS } from "./data/syllables.js";
-import { WORDS } from "./data/words.js";
-import { RP, RP_TEMPLATES } from "./data/grammar/index.js";
+import { DIGITS, ALPHANUM, SYMBOLS, HEX } from "/data/charsets.js";
+import { CONSONANTS, VOWELS } from "/data/syllables.js";
+import { WORDS } from "/data/words.js";
+import { RP, RP_TEMPLATES } from "/data/grammar/index.js";
 
 // ---------- CSPRNG helpers (unbiased, via Web Crypto) ----------
 function randUint32() {
